@@ -1175,6 +1175,9 @@ fi
 
 remove_broken_build_tools
 
+# Java Memory
+export ANDROID_JAVA_MAX_MEM="10G"
+
 export ANDROID_BUILD_TOP=$(gettop)
 
 . $ANDROID_BUILD_TOP/vendor/infinity/build/envsetup.sh
